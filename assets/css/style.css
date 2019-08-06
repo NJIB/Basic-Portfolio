@@ -1,0 +1,51 @@
+* {
+    width: 1024px;
+    margin-left: 0px;
+    box-sizing: border-box;
+  }
+
+header{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 1024px;
+    margin-left: 0px;    
+    background-color: white;
+    height: 80px;
+}
+
+.nameheader{
+    position: fixed;
+    margin-left: 100px;
+    padding-left: 10px;
+    top: 0px;
+    width: 250px;
+    height: 80px;
+    /* Need to work out how to center text in box*/
+    /* text-align: center; */
+    color: white;
+    background-color: lightseagreen;
+}
+
+.navlinks{
+    position: absolute;
+    float: right;
+    right: 20px;
+    /* top: 20px; */
+    width: 150x;
+    height: 80px;
+    color: grey;
+    /* background-color: darkolivegreen; */
+}
+
+.container{
+    clear: both;
+    position: relative;
+    margin-left: 100px;   
+    margin-right: 100px;
+    margin-top: 20px;
+    width: 960x;
+    height: 500px;
+    background-color: white;
+    border: black;
+}
