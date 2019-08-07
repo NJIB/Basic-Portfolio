@@ -8,44 +8,51 @@
 
 <body>
         <!--For CSS: Header needs to be background white across the entire width of the page, with thin grey border (bottom)-->
-    <header>
+    <header class="clearfix">
         <!--For CSS: Name banner- needs to be bolded and in white-->
         <div class="nameheader">
-            <h1>Nicholas Buck</h1>
+            <h1 class="headings">Nicholas Buck</h1>
         </div>
         <!--For CSS: Nav links on top right of every page, in header section-->
-        <div class="navlinks">
+        <nav class="navlinks">
             <a href="#">About</a>  |  <a href="portfolio.html">Portfolio</a>  |  <a href="contact.html">Contact</a>
-        </div>
+        </nav>
     </header>
 
     <!--For CSS: Container for each page should be background white, thin grey border, width 960px-->
-    <div class= "container">
+    <div class="container" class="clearfix">
 
         <section id="main-bio">  
             <!--For CSS: Define styling for section headers.  Green font, size xx, etc.-->
-            <h1 class="section_header">About Me</h1>
-            <br/>
-            <!--For CSS: Insert thin grey divider line.  Create id called thingreyline -->    
-            <div id="thingreyline">
-            
+            <div class="section_header">
+                <h1 class="headings">About Me</h1>
             </div>
+            
+            <!--For CSS: Insert thin grey divider line.  Create id called thingreyline -->    
+            <div id="thingreyline"></div>
+            <br/>   
 
-                <img src="https://media.licdn.com/dms/image/C4E03AQG-K4LYfGpgkw/profile-displayphoto-shrink_200_200/0?e=1570060800&v=beta&t=ESjRJTtIFO4d3e3PKe6KBVZDzYb0QVwKAymXKX-VyGE"
-                width=200
-                height=200/>    
-                
+            <img src="https://media.licdn.com/dms/image/C4E03AQG-K4LYfGpgkw/profile-displayphoto-shrink_200_200/0?e=1570060800&v=beta&t=ESjRJTtIFO4d3e3PKe6KBVZDzYb0QVwKAymXKX-VyGE"
+            width=200
+            height=200/> 
+        
             <!--For CSS: Make main bio float next to image-->
 
-            <p>A 20-year track record of delivering outstanding results in the areas of strategic planning, operations management, business transformation, and multi-channel marketing. Recognized for a verifiable record of leadership, commercial acumen and creativity while addressing complex business challenges for major companies around the world.</p>
-        
-            <p>Now aiming to add full stack development to the above...</p>
-        
-        </section>
+            <p id=bio-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel porta est, eu lacinia elit. Nunc non massa nisi. Praesent nec erat lectus. Nunc odio nunc, tincidunt nec lacus at, facilisis tempus nulla. Donec a enim sed est eleifend consectetur. Sed metus urna, vulputate sit amet ex id, pulvinar feugiat augue. Nunc consectetur odio a metus efficitur sagittis. Pellentesque ligula ligula, mollis a imperdiet ac, dictum at enim. Maecenas eget ornare nibh. Proin sed sem urna.
 
-        <!--For CSS: For footer, include thin green footer line (full page width), followed by dark grey area with Copyright-->
+Aenean id risus ac sem ultrices condimentum. Vestibulum sodales tristique mauris, ac commodo mi semper sed. Etiam vitae odio mi. Fusce sed pellentesque sem. Sed quis pellentesque augue. Fusce quam sem, lobortis a mauris tincidunt, aliquam viverra ex. Vestibulum eleifend velit ut commodo vestibulum. Etiam ornare vulputate neque et varius. Donec metus nibh, aliquet id suscipit in, sagittis id ex. In maximus venenatis leo, et convallis nisi finibus a.
+
+Vivamus hendrerit erat nec purus aliquet tincidunt. Sed feugiat mi id eros porta, accumsan scelerisque ipsum faucibus. Cras consectetur sit amet lorem vel blandit. Donec sit amet justo scelerisque, pellentesque turpis condimentum, consectetur est. Pellentesque sapien ex, accumsan ut urna in, rutrum facilisis turpis. Donec sodales dapibus mi at eleifend. Nulla facilisi. Suspendisse eu mauris tellus. Aliquam ut congue nulla. Nullam at quam eu ipsum volutpat dignissim. Donec cursus leo lorem, id viverra quam scelerisque et. Nullam quis erat a arcu lacinia vulputate. Sed vestibulum lectus id elit consequat facilisis. Vivamus luctus tortor ut leo pellentesque, nec gravida diam maximus. Nunc quis porta risus.
+            </p>
+        </section>
+    </div>
         <footer>
             Copyright &copy;
+
+                <!--For CSS: For footer, include thin green footer line (full page width), followed by dark grey area with Copyright-->
+
+                <div id="footerdividerline"></div>
+
         </footer>
 
 
@@ -62,7 +69,7 @@
                     </li>
                 </ul> 
         </section> -->
-   </div> 
+ 
 </body>
 </html>
 
