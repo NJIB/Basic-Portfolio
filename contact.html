@@ -2,38 +2,79 @@
 <html>
 <head>
     <title>NJIB Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 
 <body>
 
     <header>
-        <h1>Nicholas Buck</h1>
+        <!--For CSS: Name banner- needs to be bolded and in white-->
+        <div class="headercontainer">
+            <div class="nameheader">
+                <h1 class="headings">Nicholas Buck</h1>
+            </div>
+            <!--For CSS: Nav links on top right of every page, in header section-->
+            <nav class="navlinks">
+                <a href="index.html">About</a>  |  <a href="portfolio.html">Portfolio</a>  |  <a href="contact.html">Contact</a>
+            </nav>
+        </div>    
     </header>
-<!--
-    <div class= "container">
 
-        <section id="main-bio">    
-            <h1>Contact</h1>
+    <!--For CSS: Container for each page should be background white, thin grey border, width 960px-->
+    <div class="container" class="clearfix">
 
-            <p>[Contact form to be inserted here...]</p>
-        
+        <section id="main-bio">  
+            <!--Defines styling for section headers.  Green font, size xx, etc.-->
+            <div class="section_header">
+                <h1 class="headings">Contact</h1>
+            </div>
+            
+            <div id="thingreyline"></div>
+            <br/>   
+
+                <form action="">
+                    Name: 
+                    <br>
+                    <input type="text" name="FirstName" placeholder="John Smith">
+                    <br> <br>
+                    Email:
+                    <br>
+                    <input type="text" name="LastName" placeholder="example@gmail.com">
+                    <br> <br>
+                    Message:
+                    <br>
+                    <textarea name="Message" placeholder="Write something.." style="height:200px"></textarea>
+                    <br> <br>
+                    <input type="submit" value="Submit">
+                </form>
+
         </section>
--->
-        <section id="contact-info">
+    </div>
+        <footer>
+            Copyright &copy;
+
+                <!--For CSS: For footer, include thin green footer line (full page width), followed by dark grey area with Copyright-->
+
+                <div id="footerdividerline"></div>
+
+        </footer>
+
+
+<!--Contact info not required for index.html, but will be for contact-info.html. Keep for that (with changes)-->
+        <!-- <section id="contact-info">
             <h2>Contact info</h2>
                 <ul>
-                    <li>Name:
-                        <a href="mailto:njibuck@gmail.com?Subject=Testing" target="_top">njibuck@gmail.com</a></li>	
                     <li>Email:
+                        <a href="mailto:njibuck@gmail.com?Subject=Testing" target="_top">njibuck@gmail.com</a></li>	
+                    <li>Github:
                         <a href="https://github.com/NJIB">Nick on Github</a></li>
-                    <li>Message:
+                    <li>Portfolio:
                         <a href="#">Coming soon!</a>
                     </li>
                 </ul> 
-        </section>
-   </div> 
+        </section> -->
+ 
 </body>
 </html>
 
