@@ -8,47 +8,50 @@
 
 
 <body>
-
-    <header>
-        <div class="headerbox">
-            <div class="nameheader">
-                <h1 class="headings">Nicholas Buck</h1>
+    <div class="wrapper">
+        <header>
+            <div class="headerbox">
+                <div class="nameheader">
+                    <h1 class="headings">Nicholas Buck</h1>
+                </div>
+                <nav class="navlinks">
+                    <a id="hover" href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a
+                        href="contact.html">Contact</a>
+                </nav>
             </div>
-            <nav class="navlinks">
-                <a id="hover" href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a
-                    href="contact.html">Contact</a>
-            </nav>
+        </header>
+
+        <div class="container" class="clearfix">
+
+            <section id="main-bio">
+                <div class="section_header">
+                    <h1 class="headings">Contact</h1>
+                </div>
+
+                <div id="thingreyline"></div>
+                <br />
+
+                <form action="">
+                    Name:
+                    <br>
+                    <input type="text" name="FirstName" placeholder="John Smith">
+                    <br> <br>
+                    Email:
+                    <br>
+                    <input type="text" name="LastName" placeholder="example@gmail.com">
+                    <br> <br>
+                    Message:
+                    <br>
+                    <textarea name="Message" placeholder="Write something..." style="height:200px"></textarea>
+                    <br> <br>
+                    <input type="submit" value="Submit">
+                </form>
+
+            </section>
         </div>
-    </header>
-
-    <div class="container" class="clearfix">
-
-        <section id="main-bio">
-            <div class="section_header">
-                <h1 class="headings">Contact</h1>
-            </div>
-
-            <div id="thingreyline"></div>
-            <br />
-
-            <form action="">
-                Name:
-                <br>
-                <input type="text" name="FirstName" placeholder="John Smith">
-                <br> <br>
-                Email:
-                <br>
-                <input type="text" name="LastName" placeholder="example@gmail.com">
-                <br> <br>
-                Message:
-                <br>
-                <textarea name="Message" placeholder="Write something..." style="height:200px"></textarea>
-                <br> <br>
-                <input type="submit" value="Submit">
-            </form>
-
-        </section>
+        <div class="push"></div>
     </div>
+
     <footer>
         Copyright &copy;
     </footer>
